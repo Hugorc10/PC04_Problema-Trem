@@ -3,8 +3,6 @@
  * <p>
  * Enrollment number: 201611540
  * <p>
- * Train Problem it is a software that simulates a physical layer encoder.
- * <p>
  * Train Problem is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -31,7 +29,7 @@ public class Principal extends Application {
     public void start(Stage primaryStage) {
         ScreenView screen = new ScreenView();
 
-        Scene scene = new Scene(screen.createContent() /*939, 576*/);
+        Scene scene = new Scene(screen.createContent() /* 939, 576 */);
         primaryStage.setTitle("Train Problem");
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
